@@ -26,19 +26,6 @@ export default function Contact() {
           <p className="line">
             <span className="dim">where </span>Goiânia, Goiás, Brazil
           </p>
-          <div className="contact-links">
-            {socials.map((s) => (
-              <a
-                key={s.label}
-                className="btn"
-                href={s.href}
-                target={s.href.startsWith('http') ? '_blank' : undefined}
-                rel="noopener noreferrer"
-              >
-                {s.label}
-              </a>
-            ))}
-          </div>
         </div>
       </div>
     </section>

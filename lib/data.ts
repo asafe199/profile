@@ -4,9 +4,9 @@ export const profile = {
   name: 'Asafe Oliveira',
   handle: 'asafe199',
   role: 'Software Engineer',
-  headline: 'Java · Spring · JavaScript · TypeScript · NodeJS',
+  headline: 'Java · Spring Framework · JavaScript · NodeJS',
   location: 'Goiânia, Goiás, Brazil',
-  summary: "Experienced professional with a background in both Business Administration and Systems Development Engineer, specializing in software development. With nearly 6 years of hands-on experience as a Software Developer, I have honed my skills in Java, JavaScript, TypeScript, NodeJS, microservices architecture, relational and NoSQL databases. I also have practical experience building applications with Flutter. Currently, I'm working with web scraping and reverse engineering on a payment platform.",
+  summary: "Experienced professional with a background in both Business Administration and Systems Development Engineer. With nearly 6 years of hands-on experience as a Software Engineer, I have honed my skills in Java, JavaScript, TypeScript, NodeJS, microservices architecture, relational and NoSQL databases. I also have practical experience building applications with Flutter. Currently, working with web scraping and reverse engineering on a payment platform.",
 };
 
 export const contact = {
@@ -17,9 +17,9 @@ export const contact = {
 };
 
 export const socials = [
-  { label: 'github', href: contact.github },
-  { label: 'linkedin', href: contact.linkedin },
-  { label: 'email', href: `mailto:${contact.email}` },
+  { label: 'Github', href: contact.github },
+  { label: 'LinkedIn', href: contact.linkedin },
+  { label: 'Email', href: `mailto:${contact.email}` },
 ];
 
 export type Experience = {
@@ -48,25 +48,20 @@ export const experiences: Experience[] = [
     ],
     stack: [
       'Java 21',
-      'Java 17',
       'TypeScript',
       'JavaScript',
-      'Spring',
-      'Spring Boot',
+      'Spring Framework',
       'JUnit',
-      'Mockito',
       'TestNG',
-      'Kafka',
+      'New Relic',
       'RabbitMQ',
       'PostgreSQL',
       'Redis',
       'MongoDB',
       'AWS',
-      'S3',
       'Elasticsearch',
       'Grafana',
       'Playwright',
-      'Crawlee',
     ],
   },
   {
@@ -84,10 +79,9 @@ export const experiences: Experience[] = [
     stack: [
       'Java 8',
       'Dart',
-      'TypeScript',
+      'Mobile',
       'JavaScript',
-      'Spring',
-      'Spring Boot',
+      'Spring Framework',
       'JavaFX',
       'Flutter',
       'JUnit',
@@ -168,7 +162,7 @@ export const certifications = [
 ];
 
 export const languages = [
-  { name: 'Português', level: 'Native / Bilingual' },
+  { name: 'Portuguese', level: 'Native / Bilingual' },
   { name: 'English', level: 'Professional working proficiency' },
 ];
 
